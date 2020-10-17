@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+li{
+    color: black;
+}
+a{
+    color: black;
+}
+hr{
+    height: 1px solid ;
+    outline-style: solid;
+    outline-color: rgba(252, 191, 184, 0.836);
+    box-shadow: slategray 3px;
+}
+
+.carousel-item img,
+.carousel-item.active img {
+    filter: brightness(0.8);
+    min-height: 180px;
+    max-height: 360px;
+}
+
+.about {
+    background-color: rgba(255, 189, 145, 0.808);
+}
+.pabout, .pabout1{
+    font-size: 2em;
+}
+
+.carousel-inner {
+    min-height: 180px;
+    max-height: 360px;
+}
+.contact-us{
+    background-image: url('/img/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
